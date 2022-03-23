@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 public class UserRegistration {
 	public String regex;
+	
 /*
  * to enter a valid First Name
  */
@@ -14,6 +15,7 @@ public class UserRegistration {
 		Matcher m = p.matcher(firstName);
 		return m.matches();
 	}
+	
 /*
  * to enter a valid Last Name
  */
